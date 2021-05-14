@@ -1,0 +1,44 @@
+.lsideBord{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 40px;
+}
+.lsidecolor{
+    color: rgba(128, 128, 128,.5);
+}
+
+.mColor{
+    color:  #F83600;
+}
+
+.ISize{
+    font-size: 12px;
+}
+
+hr {
+    height: 2px;
+    background: rgba(153,153,153,.1);
+}
+.lsIcon{
+    fill: rgba(128, 128, 128,.5);
+}
+.newsfeedMar{
+    margin-right: 8px;
+}
+.newsfeedPad{
+    padding-left: 13px;
+}
+@media screen and (min-width:1226px) and (max-width:1440px) {
+
+    .lFontRes{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) and (max-width:1225px) {
+
+    .lFontRes{
+        font-size: 11px;
+    }
+    
+}

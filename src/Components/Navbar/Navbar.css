@@ -1,0 +1,31 @@
+.navBg{
+    background-image: linear-gradient(to right, #F83600, #fe8c00);
+
+}
+.searchColor
+{
+    background-color:  #fe8c00;
+    position: relative;
+    left: -10%;
+}
+input:focus{
+    outline: none !important;
+}
+.togSty{
+    margin-left: 50px;
+}
+
+.navIcon{
+    fill:none;
+}
+.navIcon:hover{
+    fill: white;
+    cursor: pointer;
+}
+@media screen and (max-width:1199px)
+{
+    .togSty{
+        margin-left: 0;
+    }
+}
+

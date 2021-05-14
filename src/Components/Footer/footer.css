@@ -1,0 +1,14 @@
+.vrl {
+    border-left: 4px solid #F5F1F3;
+    height: 120px;
+}
+.icHov{
+    transition: all .5s;
+    cursor: pointer;
+}
+.icHov:hover{
+    color:  #F83600;
+}
+.footIcon:hover{
+    fill: #F83600;
+}

@@ -1,0 +1,164 @@
+/* -------------------------Sponsored----------------------------- */
+.line3 {
+    position: relative;
+}
+.line3::before{
+    content: "";
+    background-color: rgba(180,177,177,.7);
+    position: absolute;
+    top:100%;
+    width: 125px;
+    height: 2px;
+}
+.imgBrb{
+    border-radius: 27px;
+}
+.linkZ{
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+}
+
+.dotMar{
+    margin-left: 121px;
+}
+.marTop{
+    margin-top: 30px;
+}
+/* -------------------------Sponsored----------------------------- */
+
+/* -------------------------Subscribed----------------------------- */
+.subMar{
+    margin-top: 30px;
+}
+/* -------------------------Subscribed----------------------------- */
+
+/* -------------------------Friend Requests----------------------------- */
+.line4 {
+    position: relative;
+}
+.line4::before{
+    content: "";
+    background-color: rgba(180,177,177,.7);
+    position: absolute;
+    top:100%;
+    width: 190px;
+    height: 2px;
+}
+.BtnSee{
+    background-image: linear-gradient(to right, #F83600, #fe8c00);
+    border: unset; 
+    padding: 5px 25px;
+    color: white;
+    border-radius: 10px;
+}
+.FrSize{
+    font-size: 15px;
+}
+.FrtSize{
+    font-size: 12px;
+}
+
+.Btn1Size{
+    background-color: #D8D1D1;
+    border: unset;
+    padding: 3px 12px;
+}
+.Btn2Size{
+    background-image: linear-gradient(to right, #F83600, #fe8c00);
+    border: unset;
+    padding: 3px 12px;
+    color: white;
+}
+/* -------------------------Friend Requests----------------------------- */
+
+/*------------------------ Upcoming Events--------------------- */
+.eventBrb{
+    border-radius: 15px;
+}
+.ulFace{
+    position: relative;
+}
+.face1{
+    position: absolute;
+    left: 0;
+}
+.face2{
+    position: absolute;
+    left: 25px;
+}
+.face3{
+    position: absolute;
+    left: 50px;
+}
+.face4{
+    position: absolute;
+    left: 75px;
+}
+.face5{
+    position: absolute;
+    left: 100px;
+    color: #D8D1D1;
+}
+.vendor{
+    font-size: 9px;
+    
+    padding-left: 90px;
+}
+.eventSize{
+    font-size: 11px;
+}
+.BtnEvent{
+    background-image: linear-gradient(to right, #F83600, #fe8c00);
+    border: unset; 
+    padding: 3px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.eventCard{
+    padding: 15px 15px;
+}
+/*------------------------ Upcoming Events--------------------- */
+
+/*------------------------ People You May know--------------------- */
+.line5 {
+    position: relative;
+}
+.line5::before{
+    content: "";
+    background-color: rgba(180,177,177,.7);
+    position: absolute;
+    top:100%;
+    width: 240px;
+    height: 2px;
+}
+.dotColor{
+    color: #00F84A;
+}
+/*------------------------ People You May know--------------------- */
+
+
+/*------------------------ News--------------------- */
+.line6 {
+    position: relative;
+}
+.line6::before{
+    content: "";
+    background-color: rgba(180,177,177,.7);
+    position: absolute;
+    top:100%;
+    width: 90px;
+    height: 2px;
+}
+.newsFSize{
+    font-size: 10px;
+}
+.newsMar{
+    margin-right: 33.5px;
+}
+/*------------------------ News--------------------- */
+
+
+
+
+
