@@ -52,43 +52,38 @@ function Center() {
                 {/* ---------------------Services--------------------------- */}
                 <h4 className="text-center mb-4 line" data-aos="fade-up" data-aos-duration="1000">Our Services</h4>
 
-                <div className="row justify-content-center secMar1">
-                    <div className="col-lg-12">
-                        <div className="row">
-                            <div className="col-xl col-lg-3 col-md-4 col-sm-4 pb-4 pr-0">
-                                <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1200">
-                                    <Fast className="servIcon" width="70px" height="70px" />
-                                    <p className="text-center mainColor font-weight-bold servTxt">Shipping</p>
-                                </div>
-                            </div>
-                            <div className="col-xl col-lg-3 col-md-4 col-sm-4 pb-4">
-                                <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1000">
-                                    <Hotel className="servIcon" width="70px" height="70px" />
-                                    <p className="text-center mainColor font-weight-bold servTxt">Hotels</p>
-                                </div>
-                            </div>
-                            <div className="col-xl col-lg-3 col-md-4 col-sm-4 pb-4 p-0">
-                                <div className="bg-white pt-5 pb-4 px-4 brb text-center shadow servCol" data-aos="fade-up" data-aos-duration="1300">
-                                    <Basket className="servIcon" width="110.63px" height="89.88px" />
-                                    <p className="text-center mainColor font-weight-bold servTxt">Shopping</p>
-                                </div>
-                            </div>
-                            <div className="col-xl col-lg-3 col-md-4 col-sm-4 pb-4 ">
-                                <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1000">
-                                    <Fair className="servIcon" width="70px" height="70px" />
-                                    <p className="text-center mainColor font-weight-bold servTxt">Fairs</p>
-                                </div>
-                            </div>
-                            <div className="col-xl col-lg-3 col-md-4 col-sm-4 pb-4 pl-0">
-                                <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1200">
-                                    <Plane className="servIcon" width="70px" height="70px" />
-                                    <p className="text-center mainColor font-weight-bold servTxt">Airlines</p>
-                                </div>
-                            </div>
+                <div className="services justify-content-center secMar1">
+
+                    <div className="pr-0">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1200">
+                            <Fast className="servIcon" width="70px" height="70px" />
+                            <p className="text-center mainColor font-weight-bold servTxt">Shipping</p>
                         </div>
                     </div>
-
-
+                    <div className="pb-4">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1000">
+                            <Hotel className="servIcon" width="70px" height="70px" />
+                            <p className="text-center mainColor font-weight-bold servTxt">Hotels</p>
+                        </div>
+                    </div>
+                    <div className="pb-4 p-0">
+                        <div className="bg-white pt-5 pb-4 px-4 brb text-center shadow servCol" data-aos="fade-up" data-aos-duration="1300">
+                            <Basket className="servIcon" width="110.63px" height="89.88px" />
+                            <p className="text-center mainColor font-weight-bold servTxt">Shopping</p>
+                        </div>
+                    </div>
+                    <div className="pb-4 ">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1000">
+                            <Fair className="servIcon" width="70px" height="70px" />
+                            <p className="text-center mainColor font-weight-bold servTxt">Fairs</p>
+                        </div>
+                    </div>
+                    <div className="pb-4 pl-0">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1200">
+                            <Plane className="servIcon" width="70px" height="70px" />
+                            <p className="text-center mainColor font-weight-bold servTxt">Airlines</p>
+                        </div>
+                    </div>
                 </div>
                 {/* ----------------------Services--------------------------- */}
 
@@ -96,45 +91,41 @@ function Center() {
                 <h4 className="text-center mb-4 line" data-aos="zoom-in-up" data-aos-duration="1000">Categories</h4>
 
                 <div className="bg-white pt-4 mt-3 brbCat shadow secMar">
-                    <div className="col-md-12 pb-4 p-l-4">
-                        <div className="row text-center">
-                            <div className="col pb-2" data-aos="fade-down" data-aos-duration="1000">
-                                <div className="catDiv">
-                                    <Clothes className="catIcon" width="39.3px" height="35px" />
-                                    <span className="font-weight-bold ml-1 catSpan">Clothes</span>
-                                </div>
+                    <div className="categories pb-4 p-l-4 text-center">
+                        <div className=" pb-2" data-aos="fade-down" data-aos-duration="1000">
+                            <div className="catDiv">
+                                <Clothes className="catIcon" width="39.3px" height="35px" />
+                                <span className="font-weight-bold ml-1 catSpan">Clothes</span>
                             </div>
-                            <div className="col pb-2" data-aos="fade-up" data-aos-duration="1000">
-                                <div className="catDiv">
-                                    <Medicine className="catIcon" width="39.3px" height="35px" />
-                                    <span className="font-weight-bold ml-1 catSpan">Medical</span>
-                                </div>
+                        </div>
+                        <div className=" pb-2" data-aos="fade-up" data-aos-duration="1000">
+                            <div className="catDiv">
+                                <Medicine className="catIcon" width="39.3px" height="35px" />
+                                <span className="font-weight-bold ml-1 catSpan">Medical</span>
                             </div>
-                            <div className="col pb-2" data-aos="flip-right" data-aos-duration="1300">
-                                <div className="catDiv">
-                                    <Grocery className="catIcon" width="39.3px" height="35px" />
-                                    <span className="font-weight-bold ml-1 catSpan">Grocery</span>
-                                </div>
+                        </div>
+                        <div className=" pb-2" data-aos="flip-right" data-aos-duration="1300">
+                            <div className="catDiv">
+                                <Grocery className="catIcon" width="39.3px" height="35px" />
+                                <span className="font-weight-bold ml-1 catSpan">Grocery</span>
                             </div>
-                            <div className="col pb-2" data-aos="fade-down" data-aos-duration="1000">
-                                <div className="catDiv">
-                                    <Shoe className="catIcon" width="39.3px" height="35px" />
-                                    <span className="font-weight-bold ml-1 catSpan">Shoes</span>
-                                </div>
+                        </div>
+                        <div className="pb-2" data-aos="fade-down" data-aos-duration="1000">
+                            <div className="catDiv">
+                                <Shoe className="catIcon" width="39.3px" height="35px" />
+                                <span className="font-weight-bold ml-1 catSpan">Shoes</span>
                             </div>
-                            <div className="col pb-2" data-aos="fade-up" data-aos-duration="1000">
-                                <div className="catDiv">
-                                    <Skincare className="catIcon" width="39.3px" height="35px" />
-                                    <span className="font-weight-bold ml-1 catSpan">Skin Care</span>
-                                </div>
+                        </div>
+                        <div className=" pb-2" data-aos="fade-up" data-aos-duration="1000">
+                            <div className="catDiv">
+                                <Skincare className="catIcon" width="39.3px" height="35px" />
+                                <span className="font-weight-bold ml-1 catSpan">Skin Care</span>
                             </div>
-                            <div className="col-md-12 text-center">
-                                <div>
-                                    <div><span className="FrtSize">See More</span>
-                                        <div><i className="fas fa-chevron-down"></i> </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                    </div>
+                    <div className="text-center">
+                        <div><span className="FrtSize">See More</span>
+                            <div><i className="fas fa-chevron-down"></i> </div>
                         </div>
                     </div>
                 </div>
@@ -161,7 +152,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +175,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +198,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +221,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +244,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +267,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +290,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +313,8 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -352,10 +351,11 @@ function Center() {
                                     <span className="fa fa-star"></span>
                                 </div>
                                 <span className="bigCardFont">zara official</span>
-                                <div>
+                                <div className="mb-2">
                                     <i className="fas fa-heart iconColor fa-2x"></i>
                                     <i className="fas fa-chart-bar iconColor fa-2x mx-3"></i>
-                                    <button href="#" className="bigBtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="bigBtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -375,9 +375,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -397,9 +398,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -419,9 +421,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -441,9 +444,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -463,9 +467,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart mainColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -485,9 +490,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
+                                    <i className="fas fa-heart mainColor fa-sm"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-sm mx-2"></i>
+                                    <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>

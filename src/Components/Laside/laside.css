@@ -44,10 +44,15 @@ hr {
 }
 
 .contain{
-    width: 100vw;
     display: grid;
-    grid-template-columns: .6fr 2fr .3fr;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    'lSide centerS centerS rSide'
+    'lSide centerS centerS rSide';
 
     grid-column-gap: 50px;
 }
 
+.lSide { grid-area: lSide; }
+.centerS { grid-area: centerS; }
+.rSide { grid-area: rSide; }

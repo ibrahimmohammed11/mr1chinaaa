@@ -15,17 +15,9 @@ input:focus{
     margin-left: 50px;
 }
 
-.navIcon{
-    fill:none;
-}
-.navIcon:hover{
-    fill: white;
-    cursor: pointer;
-}
 @media screen and (max-width:1199px)
 {
     .togSty{
         margin-left: 0;
     }
 }
-
