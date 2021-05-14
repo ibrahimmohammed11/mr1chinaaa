@@ -56,7 +56,7 @@
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     position: absolute;
     top:50%;
-    left: 31%;
+    left: 27%;
     width: 84px;
     height: 3px;
 }
@@ -65,7 +65,7 @@
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     position: absolute;
     top:50%;
-    right: 31%;
+    right: 27%;
     width: 84px;
     height: 3px;
 }
@@ -182,7 +182,7 @@
 }
 .cont2{
     display: grid;
-    grid-auto-rows: minmax(135px,auto);
+    grid-auto-rows: minmax(140px,auto);
     grid-template-areas: 
     "it1 it2 it3 it4"
     "it1 it5 it6 it7"
@@ -210,6 +210,15 @@
 }
 .it7{
     grid-area: it7;
+}
+.BtnHot{
+    background-image: linear-gradient(to right, #F83600, #fe8c00);
+    border: unset;
+    border-radius: 10px 10px; 
+    padding: 7px 10px;
+    color: white;
+    font-size: 8px;
+    margin-left: 12px;
 }
 /* ---------------------Hot Deals -------------------------*/
 
@@ -308,7 +317,7 @@
 
 .cont5{
     display: grid;
-    grid-auto-rows: minmax(135px,auto);
+    grid-auto-rows: minmax(120px,auto);
     grid-template-areas: 
     "stock1 stock2"
     "stock1 stock3"

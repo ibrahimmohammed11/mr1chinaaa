@@ -14,25 +14,25 @@ export default class Raside extends Component {
     render() {
         return (
             <Fragment>
-                <div className=" col-xl-3 col-7">
+                <div className="rSide">
                     {/*------------------------ Sponsored--------------------- */}
                     <h4 className="marTop line3 mainColor mb-3">Sponsored</h4>
 
                     <div className="row">
-                        <div className=" col-xl-6 p-0 col-lg-6 col-md-6 pb-4">
+                        <div className=" col-xl-6  col-lg-6 col-md-6 pb-4">
                             <img src={accessories} alt=".." className="imgBrb" width="170px" height="170px"/>
                         </div>
-                        <div className=" col-xl-6 p-0 col-lg-6 col-md-6 pb-4">
+                        <div className=" col-xl-6  col-lg-6 col-md-6 pb-4">
                             <div>
                                 <i className="fas fa-ellipsis-h dotMar secColor"></i>
                             </div>
                             <h5 className=" mt-4">Sale up to 50 %</h5>
                             <a href="https://www.zara.com/" target="-blank" className="linkZ">www.zara.com</a>
                         </div>
-                        <div className="col-xl-6 p-0 col-lg-6 col-md-6 pb-4">
+                        <div className="col-xl-6  col-lg-6 col-md-6 pb-4">
                             <img src={img8} alt=".." className="imgBrb" width="170px" height="170px" />
                         </div>
-                        <div className="col-xl-6 p-0 col-lg-6 col-md-6 pb-4">
+                        <div className="col-xl-6 col-lg-6 col-md-6 pb-4">
                             <div>
                             <i className="fas fa-ellipsis-h dotMar secColor"></i>
                             </div>
@@ -57,7 +57,7 @@ export default class Raside extends Component {
                     <h4 className="my-3 line3 mainColor">Subscribed</h4>
 
                     <div className="row">
-                        <div className="col-xl-3 pr-0 col-lg-3 col-md-3 col-5 pb-4">
+                        <div className="col-xl-3  col-lg-3 col-md-3 col-5 pb-4">
                             <div>
                                 <img src={artur} alt=".." width="80px" height="82px" />
                             </div>
@@ -69,9 +69,9 @@ export default class Raside extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-xl-3 pr-0 col-lg-3 col-md-3 col-5">
+                        <div className="col-xl-3 col-lg-3 col-md-3 col-5">
                             <div>
-                                <img src={artur} alt=".." className="img-fluid rounded-circle" />
+                                <img src={artur} alt=".."  width="80px" height="82px" />
                             </div>
                         </div>
                         <div className="col-xl-9 col-lg-9 col-md-9 col-7">
@@ -94,12 +94,12 @@ export default class Raside extends Component {
                     <h4 className="my-3 line4 mainColor">Friend Requests</h4>
 
                     <div className="row">
-                        <div className="col-xl-4 pr-0 col-lg-4 col-md-4 col-3 pb-4">
+                        <div className="col-xl-3 col-lg-3 col-md-3 col-3 pb-4">
                             <div>
                                 <img src={Ellipse1} alt=".." width="80px" height="82px" />
                             </div>
                         </div>
-                        <div className="col-xl-8 pl-0 col-lg-8 col-md-8 col-9">
+                        <div className="col-xl-9 col-lg-9 col-md-9 col-9">
                             <div>
                                 <span><span className="mainColor font-weight-bold">Kate smith</span> <span className="FrtSize ml-5"> 8 mins ago</span></span>
                                 
@@ -109,12 +109,12 @@ export default class Raside extends Component {
                                 <button className="rounded-pill Btn2Size my-3 FrtSize">Approve</button>
                             </div>
                         </div>
-                        <div className="col-xl-4 pr-0 col-lg-4 col-md-4 col-3 pb-4">
+                        <div className="col-xl-3 col-lg-3 col-md-3 col-3 pb-4">
                             <div>
                                 <img src={Ellipse1} alt=".." width="80px" height="82px" />
                             </div>
                         </div>
-                        <div className="col-xl-8 pl-0 col-lg-8 col-md-8 col-9">
+                        <div className="col-xl-9 col-lg-9 col-md-9 col-9">
                             <div>
                                 <span><span className="mainColor font-weight-bold">Kate smith</span> <span className="FrtSize ml-5"> 8 mins ago</span></span>
                                 
@@ -124,12 +124,12 @@ export default class Raside extends Component {
                                 <button className="rounded-pill Btn2Size my-3 FrtSize">Approve</button>
                             </div>
                         </div>
-                        <div className="col-xl-4 pr-0 col-lg-4 col-md-4 col-3 pb-4">
+                        <div className="col-xl-3 col-lg-3 col-md-3 col-3 pb-4">
                             <div>
                                 <img src={Ellipse1} alt=".." width="80px" height="82px" />
                             </div>
                         </div>
-                        <div className="col-xl-8 pl-0 col-lg-8 col-md-8 col-9">
+                        <div className="col-xl-9 col-lg-9 col-md-9 col-9">
                             <div>
                                 <span><span className="mainColor font-weight-bold">Kate smith</span> <span className="FrtSize ml-5"> 8 mins ago</span></span>
                                 
@@ -157,7 +157,7 @@ export default class Raside extends Component {
 
                     <h4 className="my-3 line4 mainColor">Upcoming Events</h4>
 
-                    <div className="col-md-11 mb-4 p-0">
+                    <div className="col-md-11 mb-4">
                         <div className="card eventBrb">
                             <img src={rest} alt=".." />
                             <div className="card-body">
@@ -181,7 +181,7 @@ export default class Raside extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-11 mb-4 p-0">
+                    <div className="col-md-11 mb-4">
                         <div className="card eventBrb">
                             <img src={rest} alt=".." />
                             <div className="card-body">

@@ -42,3 +42,12 @@ hr {
     }
     
 }
+
+.contain{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: .6fr 2fr .3fr;
+
+    grid-column-gap: 50px;
+}
+

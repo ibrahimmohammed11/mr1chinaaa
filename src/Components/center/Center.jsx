@@ -40,7 +40,7 @@ function Center() {
     return (
         <Fragment>
 
-            <div className=" col-xl-7 col-lg-7 col-md-7 marTop">
+            <div className="centerS marTop">
                 <div className="col-md-12 p-0 secMar">
                     <div className="item">
                         <img src={img2} alt=".." className="img-fluid mainBrb" />
@@ -161,7 +161,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +227,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +293,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -341,10 +341,10 @@ function Center() {
                     <div className="it1" data-aos="fade-up" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." />
-                            <div className="py-4 px-2">
+                            <div className="pt-4 pb-3 px-2">
                                 <p className="bigCardFont">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor bigCardPrice font-weight-bold">200 EGP</span>
-                                <div className="my-4 bigCardFont">
+                                <div className="my-3 bigCardFont">
                                     <span className="fa fa-star checked"></span>
                                     <span className="fa fa-star checked"></span>
                                     <span className="fa fa-star checked"></span>
@@ -363,7 +363,7 @@ function Center() {
                     <div className="it2" data-aos="fade-down" data-aos-duration="1600">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold">200 EGP</span>
                                 <div>
@@ -377,7 +377,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +385,7 @@ function Center() {
                     <div className="it3" data-aos="fade-down" data-aos-duration="1600">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold">200 EGP</span>
                                 <div>
@@ -399,7 +399,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -407,7 +407,7 @@ function Center() {
                     <div className="it4" data-aos="fade-down-left" data-aos-duration="1400">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold">200 EGP</span>
                                 <div>
@@ -421,7 +421,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -429,7 +429,7 @@ function Center() {
                     <div className="it5" data-aos="fade-up-right" data-aos-duration="1400">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold">200 EGP</span>
                                 <div>
@@ -443,7 +443,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +451,7 @@ function Center() {
                     <div className="it6" data-aos="zoom-in-up" data-aos-duration="1600">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold">200 EGP</span>
                                 <div>
@@ -465,7 +465,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -473,7 +473,7 @@ function Center() {
                     <div className="it7" data-aos="fade-up-left" data-aos-duration="1200">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="card-img-top" />
-                            <div className="pt-1 pb-2 px-2">
+                            <div className="pt-1 pb-3 px-2">
                                 <span className="smallCardFont d-block">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</span>
                                 <span className="mainColor font-weight-bold smCardPrice">200 EGP</span>
                                 <div>
@@ -487,7 +487,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty btnHov ml-3">Add to cart</button>
+                                    <button href="#" className="BtnHot btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -521,7 +521,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -544,7 +544,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -567,7 +567,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart iconColor fa-lg"></i>
                                     <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -590,7 +590,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -896,7 +896,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -918,7 +918,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -940,7 +940,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -962,7 +962,7 @@ function Center() {
                                 <div>
                                     <i className="fas fa-heart mainColor fa-lg"></i>
                                     <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-5 btnHov">Add to cart</button>
+                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1000,7 +1000,7 @@ function Center() {
                             <div className="col-md-7">
                                 <h5 className="mainColor">Fabric Stock</h5>
                                 <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
-                                                ipsum dolor sit amet, conseteturLorem ipt,</p>
+                                                ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>
                                 </div>
@@ -1017,7 +1017,7 @@ function Center() {
                             <div className="col-md-7">
                                 <h5 className="mainColor">Fabric Stock</h5>
                                 <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
-                                                ipsum dolor sit amet, conseteturLorem ipt,</p>
+                                                ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>
                                 </div>
@@ -1034,7 +1034,7 @@ function Center() {
                             <div className="col-md-7">
                                 <h5 className="mainColor">Fabric Stock</h5>
                                 <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
-                                                ipsum dolor sit amet, conseteturLorem ipt,</p>
+                                                ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>
                                 </div>

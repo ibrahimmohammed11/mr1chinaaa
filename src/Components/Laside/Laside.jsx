@@ -9,9 +9,9 @@ export default class Laside extends Component {
         return (
             <Fragment>
 
-                <div className="row">
+                <div className="contain">
 
-                    <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-8">
+                    <div className="lSide">
                         <div className=" bg-white pt-2  lsideBord pb-5">
                             <div className="row">
                                 <div className="col-md-12">
