@@ -25,7 +25,7 @@ code {
   transition: all .5s;
 }
 .btnHov:hover{
-  color:  black;
+  color: #F5F1F3;
   background-image: linear-gradient(to right,#fe8c00, #F83600);
 
 }

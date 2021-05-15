@@ -41,7 +41,7 @@ function Center() {
         <Fragment>
 
             <div className="centerS marTop">
-                <div className="col-md-12 p-0 secMar">
+                <div className="col-md-12 col-sm-12 col-12 p-0 secMar">
                     <div className="item">
                         <img src={img2} alt=".." className="img-fluid mainBrb" />
                         <i className="fas fa-chevron-left mx-3" id="prev"></i>
@@ -55,31 +55,31 @@ function Center() {
                 <div className="services justify-content-center secMar1">
 
                     <div className="pr-0">
-                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1200">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-4 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1200">
                             <Fast className="servIcon" width="70px" height="70px" />
                             <p className="text-center mainColor font-weight-bold servTxt">Shipping</p>
                         </div>
                     </div>
                     <div className="pb-4">
-                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1000">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-4 brb text-center shadow servCol" data-aos="fade-right" data-aos-duration="1000">
                             <Hotel className="servIcon" width="70px" height="70px" />
                             <p className="text-center mainColor font-weight-bold servTxt">Hotels</p>
                         </div>
                     </div>
                     <div className="pb-4 p-0">
-                        <div className="bg-white pt-5 pb-4 px-4 brb text-center shadow servCol" data-aos="fade-up" data-aos-duration="1300">
+                        <div className="bg-white pt-5 pb-3 brb text-center shadow servCol" data-aos="fade-up" data-aos-duration="1300">
                             <Basket className="servIcon" width="110.63px" height="89.88px" />
                             <p className="text-center mainColor font-weight-bold servTxt">Shopping</p>
                         </div>
                     </div>
                     <div className="pb-4 ">
-                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1000">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-4 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1000">
                             <Fair className="servIcon" width="70px" height="70px" />
                             <p className="text-center mainColor font-weight-bold servTxt">Fairs</p>
                         </div>
                     </div>
                     <div className="pb-4 pl-0">
-                        <div className="bg-white pt-4 pb-1 px-4 mt-3 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1200">
+                        <div className="bg-white pt-4 pb-1 px-4 mt-4 brb text-center shadow servCol" data-aos="fade-left" data-aos-duration="1200">
                             <Plane className="servIcon" width="70px" height="70px" />
                             <p className="text-center mainColor font-weight-bold servTxt">Airlines</p>
                         </div>
@@ -138,7 +138,7 @@ function Center() {
                     <div data-aos="fade-right" data-aos-duration="1200">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -150,8 +150,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -161,7 +161,7 @@ function Center() {
                     <div data-aos="fade-right" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -173,8 +173,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -184,7 +184,7 @@ function Center() {
                     <div data-aos="fade-left" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -196,8 +196,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -207,7 +207,7 @@ function Center() {
                     <div data-aos="fade-left" data-aos-duration="1200">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -219,8 +219,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart mainColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar  iconColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -230,7 +230,7 @@ function Center() {
                     <div data-aos="fade-right" data-aos-duration="1600">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -242,8 +242,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -253,7 +253,7 @@ function Center() {
                     <div data-aos="fade-right" data-aos-duration="1400">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -265,8 +265,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart mainColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar  iconColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -276,7 +276,7 @@ function Center() {
                     <div data-aos="fade-left" data-aos-duration="1400">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -288,8 +288,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -299,7 +299,7 @@ function Center() {
                     <div className="pb-2" data-aos="fade-left" data-aos-duration="1600">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -311,8 +311,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
+                                    <i className="fas fa-heart mainColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar  iconColor fa-lg ml-2 mt-2"></i>
                                     <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -340,7 +340,7 @@ function Center() {
                     <div className="it1" data-aos="fade-up" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." />
-                            <div className="pt-4 pb-3 px-2">
+                            <div className="pt-3 pb-3 px-3">
                                 <p className="bigCardFont">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor bigCardPrice font-weight-bold">200 EGP</span>
                                 <div className="my-3 bigCardFont">
@@ -352,8 +352,8 @@ function Center() {
                                 </div>
                                 <span className="bigCardFont">zara official</span>
                                 <div className="mb-2">
-                                    <i className="fas fa-heart iconColor fa-2x"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-2x mx-3"></i>
+                                    <i className="fas fa-heart iconColor fa-2x mt-2"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-2x ml-3 mt-2"></i>
                                     <button href="#" className="bigBtnSty float-right btnHov">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -375,8 +375,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -398,8 +398,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -421,8 +421,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -444,8 +444,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart iconColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -467,8 +467,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart mainColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -490,8 +490,8 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-sm"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-sm mx-2"></i>
+                                    <i className="fas fa-heart mainColor fa-sm mt-2"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-sm ml-2 mt-2"></i>
                                     <button href="#" className="BtnHot btnHov float-right">Add to cart</button>
                                     <div className="clearfix"></div>
                                 </div>
@@ -525,9 +525,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -548,9 +549,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart mainColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -571,9 +573,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart iconColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar mainColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -594,9 +597,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart mainColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar iconColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty btnHov float-right">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +614,7 @@ function Center() {
                 {/* ---------------------Trade Tube--------------------------- */}
                 <h4 className="text-center mb-4 mt-3 line">Trade Tube</h4>
 
-                <div className="cont4">
+                <div className="tradeGrid">
                     <div className=" mb-2" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div className="card cardBrb item1">
                             <div className="card-image">
@@ -661,7 +665,7 @@ function Center() {
 
                 {/* ---------------------sale50--------------------------- */}
 
-                <div className="cont4 secMar">
+                <div className="tradeGrid secMar">
                     <div className=" mb-4" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div>
                             <img src={img9} alt=".." className="img-fluid" />
@@ -884,11 +888,11 @@ function Center() {
                 {/* ---------------------New Arrival--------------------------- */}
                 <h4 className="text-center mb-4 line1" data-aos="fade-down" data-aos-duration="1000">New Arrival</h4>
 
-                <div className="grid-container">
-                    <div className="pb-4" data-aos="zoom-in-right" data-aos-duration="1200">
+                <div className="grid-container mb-4">
+                    <div data-aos="fade-right" data-aos-duration="1200">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -900,17 +904,18 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4" data-aos="zoom-in-right" data-aos-duration="1000">
+                    <div data-aos="fade-right" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -922,17 +927,18 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <div data-aos="fade-left" data-aos-duration="1000">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -944,17 +950,18 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4" data-aos="zoom-in-left" data-aos-duration="1200">
+                    <div data-aos="fade-left" data-aos-duration="1200">
                         <div className="card cardBrb shadow ">
                             <img src={img8} alt=".." className="img-fluid" />
-                            <div className="pt-1 px-2 py-3">
+                            <div className="px-2 py-3">
                                 <p className="FrtSize">N°02 BERGAMOT AND LEATHER SPRITZ EDP 10 ML / 0.34 OZ</p>
                                 <span className="mainColor prodPrice font-weight-bold">200 EGP</span>
                                 <div>
@@ -966,9 +973,10 @@ function Center() {
                                 </div>
                                 <span className="FrtSize">zara official</span>
                                 <div>
-                                    <i className="fas fa-heart mainColor fa-lg"></i>
-                                    <i className="fas fa-chart-bar  iconColor fa-lg mx-2"></i>
-                                    <button href="#" className="BtnSty ml-4 btnHov">Add to cart</button>
+                                    <i className="fas fa-heart iconColor fa-lg mt-2"></i>
+                                    <i className="fas fa-chart-bar mainColor fa-lg ml-2 mt-2"></i>
+                                    <button href="#" className="BtnSty float-right btnHov">Add to cart</button>
+                                    <div className="clearfix"></div>
                                 </div>
                             </div>
                         </div>

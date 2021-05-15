@@ -93,9 +93,8 @@
 }
 
 .services{
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(135px,1fr));
     grid-gap: 15px;
 }
 /* ---------------------Our Services -------------------------*/
@@ -117,7 +116,7 @@
 }
 .categories{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(135px,1fr));
     grid-gap: 15px;
 }
 /* ---------------------Categories -------------------------*/
@@ -140,7 +139,7 @@
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     position: absolute;
     top:50%;
-    left: 27%;
+    left: 25%;
     width: 84px;
     height: 3px;
 }
@@ -149,7 +148,7 @@
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     position: absolute;
     top:50%;
-    right: 27%;
+    right: 25%;
     width: 84px;
     height: 3px;
 }
@@ -171,12 +170,18 @@
 .prodPrice{
     font-size: 16px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    grid-gap: 15px;
+}
 /* ---------------------Popular Products -------------------------*/
 
 /* ---------------------Hot Deals -------------------------*/
 
 .bigCardFont{
-    font-size: 20px;
+    font-size: 19px;
 }
 .bigCardPrice{
     font-size: 23px;
@@ -199,7 +204,6 @@
     "it1 it2 it3 it4"
     "it1 it5 it6 it7"
     ;
-    
     grid-column-gap: 12px;
     grid-row-gap: 4px;
 }
@@ -227,7 +231,7 @@
 .BtnHot{
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     border: unset;
-    border-radius: 10px 10px; 
+    border-radius: 7px 7px; 
     padding: 7px 10px;
     color: white;
     font-size: 8px;
@@ -315,7 +319,11 @@
 .tradeBrb{
     border-radius: 15px 15px 0 0;
 }
-
+.tradeGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    grid-gap: 15px;
+}
 /* ---------------------Trade Tube-------------------------*/
 
 /* ---------------------Stock-------------------------*/
@@ -330,16 +338,16 @@
 
 .cont5{
     display: grid;
-    grid-auto-rows: minmax(120px,auto);
-    grid-template-areas: 
+    grid-auto-rows: repeat(auto-fit,minmax(120px,1fr));
+    /* grid-template-areas: 
     "stock1 stock2"
     "stock1 stock3"
     "stock1 stock4"
-    ;
+    ; */
     grid-gap: 25px;
 }
 .stock1{
-    grid-area: stock1;
+    grid-row: auto / stock;
 }
 .stock2{
     grid-area: stock2;
@@ -358,7 +366,7 @@
 
 /* ---------------------media-------------------------*/
 
-@media screen and (max-width:1400px)
+/* @media screen and (max-width:1400px)
 {
     .line{
         color: #F83600;
@@ -399,14 +407,32 @@
     .navForm{
         display: none;
     }
-}
+} */
 /* ---------------------media-------------------------*/
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 15px;
+@media (min-width: 500px) {
+    .cont2{
+        display: grid;
+        grid-template-areas: 
+        "it1 it1 it1 it1"
+        "it2 it2 it3 it3"
+        "it4 it4 it5 it5"
+        "it6 it6 it7 it7"
+        ;
+        justify-content: center;
+    }
 }
-
+@media (min-width: 1300px) {
+    .cont2{
+        display: grid;
+        grid-auto-rows: minmax(140px,auto);
+        grid-template-areas: 
+        "it1 it2 it3 it4"
+        "it1 it5 it6 it7"
+        ;
+        grid-column-gap: 12px;
+        grid-row-gap: 4px;
+    }
+}
 
 
 

@@ -5,19 +5,15 @@
 .searchColor
 {
     background-color:  #fe8c00;
-    position: relative;
-    left: -10%;
+    position: absolute;
+    right: -10%;
 }
 input:focus{
     outline: none !important;
 }
-.togSty{
-    margin-left: 50px;
+
+.navIcon:hover{
+    fill: white;
 }
 
-@media screen and (max-width:1199px)
-{
-    .togSty{
-        margin-left: 0;
-    }
-}
+
