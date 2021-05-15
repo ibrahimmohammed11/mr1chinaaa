@@ -331,23 +331,26 @@
     background-image: linear-gradient(to right, #F83600, #fe8c00);
     border: unset;
     border-radius: 10px 10px; 
-    padding: 7px 27px;
+    padding: 4px 20px;
     color: white;
-    font-size: 13px; 
+    font-size: 11px; 
 }
 
 .cont5{
     display: grid;
-    grid-auto-rows: repeat(auto-fit,minmax(120px,1fr));
-    /* grid-template-areas: 
+    grid-template-columns:400px 400px;
+    grid-auto-rows: repeat(auto-fit,minmax(100px,145px));
+    grid-template-areas: 
     "stock1 stock2"
     "stock1 stock3"
     "stock1 stock4"
-    ; */
-    grid-gap: 25px;
+    ;
+    
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
 }
 .stock1{
-    grid-row: auto / stock;
+    grid-area: stock1;
 }
 .stock2{
     grid-area: stock2;
@@ -358,54 +361,40 @@
 .stock4{
     grid-area: stock4;
 }
-
-
-
+.stockFont{
+    font-size: 10px;
+}
+.stocksCont{
+    display: grid;
+    grid-template-columns: 150px 130px 100px;
+    grid-template-areas: 
+    "first second second"
+    "first second second"
+    ;
+    grid-column-gap: 5px;
+}
+.first{
+    grid-area: first;
+}
+.second{
+    grid-area: second;
+}
 
 /* ---------------------Stock-------------------------*/
 
 /* ---------------------media-------------------------*/
 
-/* @media screen and (max-width:1400px)
-{
-    .line{
-        color: #F83600;
-    }
-    .line::before{
-        content: "";
-        display: none;
-    }
-    .line::after{
-        content: "";
-        display: none;
-    }
-    .line1{
-        color: #F83600;
-    }
-    .line1::before{
-        content: "";
-        display: none;
-    }
-    .line1::after{
-        content: "";
-        display: none;
-    }
-    .line2::before{
-        content: "";
-        display: none;
-    }
-    .line2::after{
-        content: "";
-        display: none;
-    }
-    .BtnStock{
-        font-size: 8px;
-    }
-    .tog{
-        display: none;
-    }
-    .navForm{
-        display: none;
+/* @media only screen and (max-width: 992px) {
+    .cont5{
+        display: grid;
+        grid-auto-rows: minmax(110px,145px);
+        grid-template-areas: 
+        "stock1 stock2"
+        "stock1 stock3"
+        "stock1 stock4"
+        ;
+        grid-column-gap: 25px;
+        grid-row-gap: 5px;
     }
 } */
 /* ---------------------media-------------------------*/

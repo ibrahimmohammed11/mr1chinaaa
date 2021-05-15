@@ -990,30 +990,28 @@ function Center() {
                 {/* ---------------------Stocks--------------------------- */}
                 <h4 className="text-center mb-4 line" data-aos="fade-down" data-aos-duration="1000">Stocks</h4>
 
-                <div className="cont5 mb-4">
+                <div className="cont5 mb-5">
                     <div className="stock1">
                         <div className="card cardBrb">
                             <img src={stocks} alt=".." className="img-fluid" />
-                            <div className="card-body p-3">
+                            <div className="px-3 py-1">
                                 <h5 className="mainColor">Fabric Stock</h5>
-                                <p>Lorem ipsum dolor sit amet, consetetur Lorem
-                                        ipsum dolor sit amet, conseteturLorem ipt,</p>
-                                <div className="mb-2">
+                                <span>Lorem ipsum dolor sit amet, consetetur Lorem
+                                        ipsum dolor sit amet, conseteturLorem ipt,</span>
+                                <div className="my-1 text-center">
                                     <button href="#" className="BtnStock btnHov">View More</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="stock2 pb-1">
-                        <div className="row pb-1">
-                            <div className="col-md-5 p-0">
-                                <div>
-                                    <img src={stocks} alt=".." className="img-fluid cardBrb" />
-                                </div>
+                    <div className="stock2">
+                        <div className="stocksCont">
+                            <div className="first">
+                                <img src={stocks} alt=".." className="img-fluid cardBrb"/>
                             </div>
-                            <div className="col-md-7">
+                            <div className="second">
                                 <h5 className="mainColor">Fabric Stock</h5>
-                                <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
+                                <p className="stockFont">Lorem ipsum dolor sit amet, consetetur Lorem
                                                 ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>
@@ -1021,16 +1019,14 @@ function Center() {
                             </div>
                         </div>
                     </div>
-                    <div className="stock3 pb-1">
-                        <div className="row pb-1">
-                            <div className="col-md-5 p-0">
-                                <div>
-                                    <img src={stocks} alt=".." className="img-fluid cardBrb" />
-                                </div>
+                    <div className="stock3">
+                        <div className="stocksCont">
+                            <div className="first">
+                                <img src={stocks} alt=".." className="img-fluid cardBrb" />
                             </div>
-                            <div className="col-md-7">
+                            <div  className="second">
                                 <h5 className="mainColor">Fabric Stock</h5>
-                                <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
+                                <p className="stockFont">Lorem ipsum dolor sit amet, consetetur Lorem
                                                 ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>
@@ -1038,16 +1034,14 @@ function Center() {
                             </div>
                         </div>
                     </div>
-                    <div className="stock4 pb-1">
-                        <div className="row pb-1">
-                            <div className="col-md-5 p-0">
-                                <div>
-                                    <img src={stocks} alt=".." className="img-fluid cardBrb" />
-                                </div>
+                    <div className="stock4">
+                        <div className="stocksCont">
+                            <div className="first">
+                                <img src={stocks} alt=".." className="img-fluid cardBrb" />
                             </div>
-                            <div className="col-md-7">
+                            <div className="second">
                                 <h5 className="mainColor">Fabric Stock</h5>
-                                <p className="tradeFont">Lorem ipsum dolor sit amet, consetetur Lorem
+                                <p className="stockFont">Lorem ipsum dolor sit amet, consetetur Lorem
                                                 ipsum dolor sit amet, conseteturLorem</p>
                                 <div>
                                     <button href="#" className="BtnStock ml-5 btnHov">View More</button>

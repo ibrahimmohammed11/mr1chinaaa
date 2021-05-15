@@ -50,13 +50,30 @@ hr {
     'lSide centerS centerS rSide'
     'lSide centerS centerS rSide';
 
-    grid-column-gap: 50px;
+    grid-column-gap: 40px;
 }
 
 .lSide { grid-area: lSide; }
 .centerS { grid-area: centerS; }
 .rSide { grid-area: rSide; }
-
+/*------------------------ media-------------------------- */
+@media only screen and (max-width: 400px) {
+.cont5{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-auto-rows: repeat(auto-fit,minmax(100px,145px));
+    grid-template-areas: 
+    "stock1 ....."
+    "stock1 ....."
+    "stock2 ......"
+    "stock3 ......"
+    "stock4 ......"
+    ;
+    
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+}
 @media only screen and (max-width: 572px) {
     .searchColor
     {
@@ -152,7 +169,6 @@ hr {
         content: "";
         right: 30%;
     }
-
 }
 @media only screen and (min-width: 768px){
     .contain{
@@ -270,6 +286,19 @@ hr {
         content: "";
         right: 10%;
     }
+    .cont5{
+        display: grid;
+        grid-template-columns:400px 400px;
+        grid-auto-rows: repeat(auto-fit,minmax(100px,145px));
+        grid-template-areas: 
+        "stock1 stock2"
+        "stock1 stock3"
+        "stock1 stock4"
+        ;
+        
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
 }
 @media only screen and (min-width: 1290px) {
     .contain{
@@ -312,3 +341,4 @@ hr {
         right: 18%;
     }
 }
+/*------------------------ media-------------------------- */
